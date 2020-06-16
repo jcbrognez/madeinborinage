@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(34, 34, 34);
+    background: url(images/projetphoto.jpg) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    background-color: rgb(248, 247, 245);
+}
+
+#bodypage {
+    width: 75%;
+    margin: auto;
+    color: rgb(248, 247, 245);
+    position: relative;
+}
+
+h2 {
+    padding: 20px 20px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/*HEADER -----------------------------------------------------------*/
+header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*image logo HEAD gauche*/
+#logoheader {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    padding: 15px 20px 0 0;
+}
+
+header #logo-borain {
+    width: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    padding-left: 10px;
+    font-weight: bolder;
+    text-shadow: 1px 2px 1px rgb(34, 34, 34);
+}
+
+#logoheader a {
+    color: white;
+}
+#logoheader a:hover {
+    color: #DC1809;
+}
+ /*MENU NAV*/
+header nav {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-right: 15%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    margin: 10px 10px;
+    padding: 0 10px;
+}
+header nav li:not(:first-of-type) {
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+
+/*INTRO*/
+#intro {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgb(34, 34, 34);
+    text-align: justify;
+    padding: 15px 25px;
+    margin: 0 0 5px 610px;
+    font-weight: 450;
+}
+/*BLOCKQUOTE*/
+blockquote {
+    position: absolute;
+    top: 35.5rem;
+    left: -7rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    color: rgb(34, 34, 34);
+    text-align: justify;
+}
+
+blockquote em {
+    font-size: 1.1em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+blockquote footer {
+    font-size: 1em;
+    text-align: center;
+}
+blockquote footer cite {
+    color: #DC1809;
+    font-weight: 200;
+}
+blockquote footer a :hover {
+    color: white;
+}
+/*Fin Quote*/
+
+
+ /*SECTIONS */
+section { /*disposer flex*/
+    margin-top: 550px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+article {
+    background-color: white;
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px rgb(95, 95, 95);
+}
+article img {
+    height: 200px;
+}
+article iframe {
+    height: 200px;
+    width: 350px;
+}
+
+/*FOOTER ---------------------------------------------------------*/
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+}
+#foot1 {
+    background-color: rgb(248, 247, 245);
+    color: black;
+    padding: 20px 0 30px 0;
+}
+footer p {
+    padding: 20px;
+}
+.partners img {
+    width: 80px;
+    padding: 0 10px;
+}
+
+
+/*FOOTER BLACK = social + copy */
+#foot2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+    padding: 10px;
+}
+footer cite {
+    color: white;
+    font-style: italic;
+    font-size: 0.7em;
+    margin-right: 10%;
+}
+/*RESEAUX SOCIAUX */
+.icons-social {
+    display: flex;
+    margin-left: 10%;
+}
+
+.icons-social a {
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+}
+.fab {
+    font-size: 1.8em;
+}
+
+.icons-social :hover {
+    color: rgba(185, 185, 185, 0.85);
+}
+
+/*LINKS*/
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+a:hover {
+    color: #DC1809;
+}
+
+/*Links Images article*/
